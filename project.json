@@ -1,0 +1,92 @@
+{
+  "targets": [
+    {
+      "isStage": true,
+      "name": "Stage",
+      "variables": {"score": ["score", 0]},
+      "lists": {},
+      "broadcasts": {},
+      "blocks": {},
+      "currentCostume": 0,
+      "costumes": [],
+      "sounds": [],
+      "volume": 100,
+      "layerOrder": 0,
+      "tempo": 60,
+      "videoTransparency": 50,
+      "videoState": "on",
+      "videoToggle": "off",
+      "sharingName": "pokemon-catcher"
+    },
+    {
+      "isStage": false,
+      "name": "Player",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "blocks": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "player-costume",
+          "name": "player",
+          "md5ext": "player-costume.png",
+          "dataFormat": "png",
+          "rotationCenterX": 47,
+          "rotationCenterY": 50
+        }
+      ],
+      "sounds": [],
+      "volume": 100,
+      "visible": true,
+      "x": 0,
+      "y": -120,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "left-right",
+      "layerOrder": 1
+    },
+    {
+      "isStage": false,
+      "name": "Target",
+      "variables": {},
+      "lists": {},
+      "broadcasts": {},
+      "blocks": {},
+      "currentCostume": 0,
+      "costumes": [
+        {
+          "assetId": "target-costume",
+          "name": "target",
+          "md5ext": "target-costume.png",
+          "dataFormat": "png",
+          "rotationCenterX": 47,
+          "rotationCenterY": 50
+        }
+      ],
+      "sounds": [
+        {
+          "assetId": "pop-sound",
+          "name": "pop",
+          "md5ext": "pop.wav",
+          "dataFormat": "wav"
+        }
+      ],
+      "volume": 100,
+      "visible": true,
+      "x": 0,
+      "y": 180,
+      "size": 100,
+      "direction": 90,
+      "draggable": false,
+      "rotationStyle": "all around",
+      "layerOrder": 2
+    }
+  ],
+  "meta": {
+    "semver": "3.0.0",
+    "vm": "0.2.0",
+    "agent": "sb3-generator"
+  }
+}
